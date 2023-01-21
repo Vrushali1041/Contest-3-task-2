@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px 100px 150px;
+    
+}
+
+/* left section */
+.left .text{
+    width: 450px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.left select{
+    width: 459px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.left textarea{
+    width: 454px;
+    height: 130px;
+    border-radius: 5px;
+    resize: horizontal;
+    margin-top: 8px;
+}
+
+.btn{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 455px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.btn input{
+    border: none;
+    outline: none;
+}
+
+.btn button{
+    padding: 0 20px 0 20px;
+    margin-left: 100px;
+    width: 250px;
+}
+
+/* right section */
+.search{
+    width: 450px;
+    height: 30px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 27px 0 25px 0;
+}
+.search input{
+   border: none;
+   outline: none;
+   width: 250px;
+}
+
+.right .number{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.right #checkbox{
+    margin: 30px 0 15px 0;
+}
+
+.right #radio{
+    margin: 15px 0 30px 0;
+}
+
+.switch input{
+   visibility: hidden;
+}
+.switch{
+    height: 25px;
+    width: 55px;
+    border-radius: 45px;
+    position: relative;
+    background-color: #b9b6b6;
+    border: none;
+    padding: 2px;
+}
+
+.switch label{
+    background-color: #ffffff;
+    display: inline-block;
+    height: 19px;
+    width: 19px;
+    border-radius: 50px;
+    position: relative;
+    top: 2.5px;
+    transition: all 0.5s;
+    left: 0px;
+}
+
+/* .switch input:checked + .switch label{
+    transform: translateX(27px);
+} */
+
